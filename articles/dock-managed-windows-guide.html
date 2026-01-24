@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>EnableWindowDrag | Dock for Avalonia </title>
+      <title>Managed Windows Guide | Dock for Avalonia </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="EnableWindowDrag | Dock for Avalonia ">
+      <meta name="title" content="Managed Windows Guide | Dock for Avalonia ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/punker76/Dock/blob/master/docfx/articles/dock-window-drag.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/punker76/Dock/blob/master/docfx/articles/dock-managed-windows-guide.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -81,36 +81,53 @@
         </div>
 
         <article data-uid="">
-<h1 id="enablewindowdrag">EnableWindowDrag</h1>
+<h1 id="managed-windows-guide">Managed Windows Guide</h1>
 
-<p><code>EnableWindowDrag</code> is an option on <code>IDocumentDock</code> and its implementations. When set to <code>true</code>, the empty area of the document tab strip works as a drag handle for the host window.</p>
-<p>Enabling the property lets users reposition a floating or main window by dragging the tab bar instead of the standard title bar. This is useful when the window chrome is hidden or when you want the tabs to act as the natural drag area for the window.</p>
-<h2 id="usage">Usage</h2>
-<p>Set the property when creating your document docks:</p>
-<pre><code class="lang-csharp">var documents = new DocumentDock
-{
-    EnableWindowDrag = true,
-    // other options
-};
-</code></pre>
-<p>The same property is available on the Avalonia control <code>DocumentDock</code> and can also be set in XAML:</p>
-<pre><code class="lang-xml">&lt;DocumentDock EnableWindowDrag=&quot;True&quot; /&gt;
-</code></pre>
-<p>With the property enabled, <code>DocumentTabStrip</code> listens for pointer events on its background and initiates a window drag on the surrounding <code>HostWindow</code> (or window). The user can grab the tab area and drag the entire window.</p>
-<h2 id="managed-windows">Managed windows</h2>
-<p>In managed window mode (<code>DockSettings.UseManagedWindows = true</code>), floating windows are rendered inside the main window. Their drag behavior is provided by the managed window chrome (<code>MdiDocumentWindow</code>), not by <code>DocumentTabStrip</code>. <code>EnableWindowDrag</code> remains useful for dragging the main window or native floating windows.</p>
-<h2 id="scenarios">Scenarios</h2>
+<p>Managed windows host floating docks inside the main window instead of spawning native OS windows. When enabled, Dock uses the in-app MDI layer to render floating windows as <code>MdiDocumentWindow</code> controls.</p>
+<h2 id="when-to-use-managed-windows">When to use managed windows</h2>
+<p>Managed windows are useful when:</p>
 <ul>
-<li><strong>Floating windows</strong> – Users can drag the tab bar of a floating document window to reposition it without relying on the window title bar.</li>
-<li><strong>Custom window chrome</strong> – Applications that hide or replace the native title bar can still offer window dragging by enabling this option.</li>
-<li><strong>Tabbed layouts</strong> – When multiple documents share a single window, the tab strip becomes the primary handle for moving that window.</li>
+<li>Your app should stay inside a single top-level window.</li>
+<li>You want consistent window chrome across platforms.</li>
+<li>Native window restrictions or airspace issues make OS windows undesirable.</li>
 </ul>
-<p>See the <a href="dock-advanced.html">Advanced guide</a> for details on customizing floating windows.</p>
+<p>The main window is still an OS window. Managed windows affect only floating dock windows.</p>
+<h2 id="how-managed-windows-work">How managed windows work</h2>
+<ol>
+<li><code>DockSettings.UseManagedWindows</code> switches floating windows to <code>ManagedHostWindow</code>.</li>
+<li><code>DockControl</code> registers its <code>ManagedWindowLayer</code> with the factory when <code>EnableManagedWindowLayer</code> is true.</li>
+<li><code>ManagedHostWindow</code> creates a <code>ManagedDockWindowDocument</code> that wraps the <code>IDockWindow</code> model.</li>
+<li><code>ManagedWindowLayer</code> renders managed windows using <code>MdiLayoutPanel</code> and <code>MdiDocumentWindow</code>.</li>
+</ol>
+<p>The managed windows remain in the main visual tree so they can share styles and resources with the rest of the app.</p>
+<h2 id="interaction-parity">Interaction parity</h2>
+<p>Managed windows reuse the same interaction model as native windows:</p>
+<ul>
+<li>Dragging and resizing are handled by <code>MdiDocumentWindow</code> and its layout manager.</li>
+<li>Dock targets, drag previews, and pinned windows are rendered inside the managed layer.</li>
+<li>Window magnetism and bring-to-front behavior apply within the managed layer.</li>
+</ul>
+<h2 id="differences-from-native-windows">Differences from native windows</h2>
+<p>Managed windows are not OS windows:</p>
+<ul>
+<li>They do not appear in the taskbar or window switchers.</li>
+<li>They cannot be moved outside the main window or across monitors.</li>
+<li>Owner relationships and OS-level z-order do not apply; ordering uses <code>MdiZIndex</code>.</li>
+</ul>
+<h2 id="theming-and-templates">Theming and templates</h2>
+<p><code>ManagedWindowLayer</code> is part of the <code>DockControl</code> template and must be named <code>PART_ManagedWindowLayer</code>. If you replace the template, include the layer and keep <code>EnableManagedWindowLayer</code> set to <code>true</code> so floating windows remain visible.</p>
+<h2 id="related-articles">Related articles</h2>
+<ul>
+<li><a href="dock-managed-windows-howto.html">Managed windows how-to</a></li>
+<li><a href="dock-managed-windows-reference.html">Managed windows reference</a></li>
+<li><a href="dock-windows.html">Floating windows</a></li>
+<li><a href="dock-mdi.html">MDI document layout</a></li>
+</ul>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/punker76/Dock/blob/master/docfx/articles/dock-window-drag.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/punker76/Dock/blob/master/docfx/articles/dock-managed-windows-guide.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
