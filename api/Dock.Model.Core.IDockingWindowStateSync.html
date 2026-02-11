@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Enum DockCommandBarMergingScope | Dock for Avalonia </title>
+      <title>Interface IDockingWindowStateSync | Dock for Avalonia </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Enum DockCommandBarMergingScope | Dock for Avalonia ">
+      <meta name="title" content="Interface IDockingWindowStateSync | Dock for Avalonia ">
       
-      <meta name="description" content="Defines which dockable contributes command bars to a host window.">
+      <meta name="description" content="Synchronizes state requests from  instances back to the docking layout.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/punker76/Dock/new/master/apiSpec/new?filename=Dock_Settings_DockCommandBarMergingScope.md&amp;value=---%0Auid%3A%20Dock.Settings.DockCommandBarMergingScope%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/punker76/Dock/new/master/apiSpec/new?filename=Dock_Model_Core_IDockingWindowStateSync.md&amp;value=---%0Auid%3A%20Dock.Model.Core.IDockingWindowStateSync%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -80,26 +80,26 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Dock.Settings.DockCommandBarMergingScope">
+        <article data-uid="Dock.Model.Core.IDockingWindowStateSync">
 
 
 
-
-  <h1 id="Dock_Settings_DockCommandBarMergingScope" data-uid="Dock.Settings.DockCommandBarMergingScope" class="text-break">
-Enum DockCommandBarMergingScope  <a class="header-action link-secondary" title="View source" href="https://github.com/punker76/Dock/blob/master/src/Dock.Settings/DockSettings.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Dock_Model_Core_IDockingWindowStateSync" data-uid="Dock.Model.Core.IDockingWindowStateSync" class="text-break">
+Interface IDockingWindowStateSync  <a class="header-action link-secondary" title="View source" href="https://github.com/punker76/Dock/blob/master/src/Dock.Model/Core/IDockingWindowStateSync.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Dock.html">Dock</a>.<a class="xref" href="Dock.Settings.html">Settings</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>Dock.Settings.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Dock.html">Dock</a>.<a class="xref" href="Dock.Model.html">Model</a>.<a class="xref" href="Dock.Model.Core.html">Core</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Dock.Model.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Defines which dockable contributes command bars to a host window.</p>
+  <div class="markdown summary"><p>Synchronizes state requests from <a class="xref" href="Dock.Model.Core.IDockingWindowState.html">IDockingWindowState</a> instances
+back to the docking layout.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum DockCommandBarMergingScope</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IDockingWindowStateSync</code></pre>
   </div>
 
 
@@ -110,25 +110,55 @@ Enum DockCommandBarMergingScope  <a class="header-action link-secondary" title="
 
 
 
-  <h2 id="fields">Fields
+
+
+
+
+  <h2 class="section" id="methods">Methods
 </h2>
+
+
+  <a id="Dock_Model_Core_IDockingWindowStateSync_OnDockingWindowStatePropertyChanged_" data-uid="Dock.Model.Core.IDockingWindowStateSync.OnDockingWindowStatePropertyChanged*"></a>
+
+  <h3 id="Dock_Model_Core_IDockingWindowStateSync_OnDockingWindowStatePropertyChanged_Dock_Model_Core_IDockable_Dock_Model_Core_DockingWindowStateProperty_" data-uid="Dock.Model.Core.IDockingWindowStateSync.OnDockingWindowStatePropertyChanged(Dock.Model.Core.IDockable,Dock.Model.Core.DockingWindowStateProperty)">
+  OnDockingWindowStatePropertyChanged(IDockable, DockingWindowStateProperty)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/punker76/Dock/blob/master/src/Dock.Model/Core/IDockingWindowStateSync.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Handles a property change request from a docking window state mixin.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnDockingWindowStatePropertyChanged(IDockable dockable, DockingWindowStateProperty property)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt id="Dock_Settings_DockCommandBarMergingScope_ActiveDockable"><code>ActiveDockable = 1</code></dt>
-  
-  <dd><p>Merge command bars from the active dockable (documents and tools).</p>
+    <dt><code>dockable</code> <a class="xref" href="Dock.Model.Core.IDockable.html">IDockable</a></dt>
+    <dd><p>The dockable that changed.</p>
 </dd>
-    <dt id="Dock_Settings_DockCommandBarMergingScope_ActiveDocument"><code>ActiveDocument = 0</code></dt>
-  
-  <dd><p>Merge command bars from the active document only.</p>
+    <dt><code>property</code> <a class="xref" href="Dock.Model.Core.DockingWindowStateProperty.html">DockingWindowStateProperty</a></dt>
+    <dd><p>The changed property.</p>
 </dd>
   </dl>
+
+
+
+
+
+
+
+
+
+
 
 
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/punker76/Dock/blob/master/src/Dock.Settings/DockSettings.cs/#L222" class="edit-link">Edit this page</a>
+          <a href="https://github.com/punker76/Dock/blob/master/src/Dock.Model/Core/IDockingWindowStateSync.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 
