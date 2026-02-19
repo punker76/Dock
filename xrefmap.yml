@@ -115,6 +115,25 @@ references:
   commentId: T:Avalonia.Controls.Recycling.ControlRecyclingDataTemplate
   fullName: Avalonia.Controls.Recycling.ControlRecyclingDataTemplate
   nameWithType: ControlRecyclingDataTemplate
+- uid: Avalonia.Controls.Recycling.ControlRecyclingDataTemplate.#ctor
+  name: ControlRecyclingDataTemplate()
+  href: api/Avalonia.Controls.Recycling.ControlRecyclingDataTemplate.html#Avalonia_Controls_Recycling_ControlRecyclingDataTemplate__ctor
+  commentId: M:Avalonia.Controls.Recycling.ControlRecyclingDataTemplate.#ctor
+  name.vb: New()
+  fullName: Avalonia.Controls.Recycling.ControlRecyclingDataTemplate.ControlRecyclingDataTemplate()
+  fullName.vb: Avalonia.Controls.Recycling.ControlRecyclingDataTemplate.New()
+  nameWithType: ControlRecyclingDataTemplate.ControlRecyclingDataTemplate()
+  nameWithType.vb: ControlRecyclingDataTemplate.New()
+- uid: Avalonia.Controls.Recycling.ControlRecyclingDataTemplate.#ctor*
+  name: ControlRecyclingDataTemplate
+  href: api/Avalonia.Controls.Recycling.ControlRecyclingDataTemplate.html#Avalonia_Controls_Recycling_ControlRecyclingDataTemplate__ctor_
+  commentId: Overload:Avalonia.Controls.Recycling.ControlRecyclingDataTemplate.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Avalonia.Controls.Recycling.ControlRecyclingDataTemplate.ControlRecyclingDataTemplate
+  fullName.vb: Avalonia.Controls.Recycling.ControlRecyclingDataTemplate.New
+  nameWithType: ControlRecyclingDataTemplate.ControlRecyclingDataTemplate
+  nameWithType.vb: ControlRecyclingDataTemplate.New
 - uid: Avalonia.Controls.Recycling.ControlRecyclingDataTemplate.Build(System.Object)
   name: Build(object?)
   href: api/Avalonia.Controls.Recycling.ControlRecyclingDataTemplate.html#Avalonia_Controls_Recycling_ControlRecyclingDataTemplate_Build_System_Object_
@@ -719,6 +738,197 @@ references:
   commentId: N:Dock.Avalonia.Controls
   fullName: Dock.Avalonia.Controls
   nameWithType: Dock.Avalonia.Controls
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel
+  name: DelayedUniformTabPanel
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html
+  commentId: T:Dock.Avalonia.Controls.DelayedUniformTabPanel
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel
+  nameWithType: DelayedUniformTabPanel
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.#ctor
+  name: DelayedUniformTabPanel()
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel__ctor
+  commentId: M:Dock.Avalonia.Controls.DelayedUniformTabPanel.#ctor
+  name.vb: New()
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.DelayedUniformTabPanel()
+  fullName.vb: Dock.Avalonia.Controls.DelayedUniformTabPanel.New()
+  nameWithType: DelayedUniformTabPanel.DelayedUniformTabPanel()
+  nameWithType.vb: DelayedUniformTabPanel.New()
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.#ctor*
+  name: DelayedUniformTabPanel
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel__ctor_
+  commentId: Overload:Dock.Avalonia.Controls.DelayedUniformTabPanel.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.DelayedUniformTabPanel
+  fullName.vb: Dock.Avalonia.Controls.DelayedUniformTabPanel.New
+  nameWithType: DelayedUniformTabPanel.DelayedUniformTabPanel
+  nameWithType.vb: DelayedUniformTabPanel.New
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.AnimatedTabWidthProperty
+  name: AnimatedTabWidthProperty
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_AnimatedTabWidthProperty
+  commentId: F:Dock.Avalonia.Controls.DelayedUniformTabPanel.AnimatedTabWidthProperty
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.AnimatedTabWidthProperty
+  nameWithType: DelayedUniformTabPanel.AnimatedTabWidthProperty
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.ArrangeOverride(Avalonia.Size)
+  name: ArrangeOverride(Size)
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_ArrangeOverride_Avalonia_Size_
+  commentId: M:Dock.Avalonia.Controls.DelayedUniformTabPanel.ArrangeOverride(Avalonia.Size)
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.ArrangeOverride(Avalonia.Size)
+  nameWithType: DelayedUniformTabPanel.ArrangeOverride(Size)
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.ArrangeOverride*
+  name: ArrangeOverride
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_ArrangeOverride_
+  commentId: Overload:Dock.Avalonia.Controls.DelayedUniformTabPanel.ArrangeOverride
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.ArrangeOverride
+  nameWithType: DelayedUniformTabPanel.ArrangeOverride
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.ExpansionDelay
+  name: ExpansionDelay
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_ExpansionDelay
+  commentId: P:Dock.Avalonia.Controls.DelayedUniformTabPanel.ExpansionDelay
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.ExpansionDelay
+  nameWithType: DelayedUniformTabPanel.ExpansionDelay
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.ExpansionDelay*
+  name: ExpansionDelay
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_ExpansionDelay_
+  commentId: Overload:Dock.Avalonia.Controls.DelayedUniformTabPanel.ExpansionDelay
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.ExpansionDelay
+  nameWithType: DelayedUniformTabPanel.ExpansionDelay
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.ExpansionDelayProperty
+  name: ExpansionDelayProperty
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_ExpansionDelayProperty
+  commentId: F:Dock.Avalonia.Controls.DelayedUniformTabPanel.ExpansionDelayProperty
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.ExpansionDelayProperty
+  nameWithType: DelayedUniformTabPanel.ExpansionDelayProperty
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.ItemSpacing
+  name: ItemSpacing
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_ItemSpacing
+  commentId: P:Dock.Avalonia.Controls.DelayedUniformTabPanel.ItemSpacing
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.ItemSpacing
+  nameWithType: DelayedUniformTabPanel.ItemSpacing
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.ItemSpacing*
+  name: ItemSpacing
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_ItemSpacing_
+  commentId: Overload:Dock.Avalonia.Controls.DelayedUniformTabPanel.ItemSpacing
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.ItemSpacing
+  nameWithType: DelayedUniformTabPanel.ItemSpacing
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.ItemSpacingProperty
+  name: ItemSpacingProperty
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_ItemSpacingProperty
+  commentId: F:Dock.Avalonia.Controls.DelayedUniformTabPanel.ItemSpacingProperty
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.ItemSpacingProperty
+  nameWithType: DelayedUniformTabPanel.ItemSpacingProperty
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.MaxTabWidth
+  name: MaxTabWidth
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_MaxTabWidth
+  commentId: P:Dock.Avalonia.Controls.DelayedUniformTabPanel.MaxTabWidth
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.MaxTabWidth
+  nameWithType: DelayedUniformTabPanel.MaxTabWidth
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.MaxTabWidth*
+  name: MaxTabWidth
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_MaxTabWidth_
+  commentId: Overload:Dock.Avalonia.Controls.DelayedUniformTabPanel.MaxTabWidth
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.MaxTabWidth
+  nameWithType: DelayedUniformTabPanel.MaxTabWidth
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.MaxTabWidthProperty
+  name: MaxTabWidthProperty
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_MaxTabWidthProperty
+  commentId: F:Dock.Avalonia.Controls.DelayedUniformTabPanel.MaxTabWidthProperty
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.MaxTabWidthProperty
+  nameWithType: DelayedUniformTabPanel.MaxTabWidthProperty
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.MeasureOverride(Avalonia.Size)
+  name: MeasureOverride(Size)
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_MeasureOverride_Avalonia_Size_
+  commentId: M:Dock.Avalonia.Controls.DelayedUniformTabPanel.MeasureOverride(Avalonia.Size)
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.MeasureOverride(Avalonia.Size)
+  nameWithType: DelayedUniformTabPanel.MeasureOverride(Size)
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.MeasureOverride*
+  name: MeasureOverride
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_MeasureOverride_
+  commentId: Overload:Dock.Avalonia.Controls.DelayedUniformTabPanel.MeasureOverride
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.MeasureOverride
+  nameWithType: DelayedUniformTabPanel.MeasureOverride
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.MinTabWidth
+  name: MinTabWidth
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_MinTabWidth
+  commentId: P:Dock.Avalonia.Controls.DelayedUniformTabPanel.MinTabWidth
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.MinTabWidth
+  nameWithType: DelayedUniformTabPanel.MinTabWidth
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.MinTabWidth*
+  name: MinTabWidth
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_MinTabWidth_
+  commentId: Overload:Dock.Avalonia.Controls.DelayedUniformTabPanel.MinTabWidth
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.MinTabWidth
+  nameWithType: DelayedUniformTabPanel.MinTabWidth
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.MinTabWidthProperty
+  name: MinTabWidthProperty
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_MinTabWidthProperty
+  commentId: F:Dock.Avalonia.Controls.DelayedUniformTabPanel.MinTabWidthProperty
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.MinTabWidthProperty
+  nameWithType: DelayedUniformTabPanel.MinTabWidthProperty
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.OnAttachedToVisualTree(Avalonia.VisualTreeAttachmentEventArgs)
+  name: OnAttachedToVisualTree(VisualTreeAttachmentEventArgs)
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_OnAttachedToVisualTree_Avalonia_VisualTreeAttachmentEventArgs_
+  commentId: M:Dock.Avalonia.Controls.DelayedUniformTabPanel.OnAttachedToVisualTree(Avalonia.VisualTreeAttachmentEventArgs)
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.OnAttachedToVisualTree(Avalonia.VisualTreeAttachmentEventArgs)
+  nameWithType: DelayedUniformTabPanel.OnAttachedToVisualTree(VisualTreeAttachmentEventArgs)
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.OnAttachedToVisualTree*
+  name: OnAttachedToVisualTree
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_OnAttachedToVisualTree_
+  commentId: Overload:Dock.Avalonia.Controls.DelayedUniformTabPanel.OnAttachedToVisualTree
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.OnAttachedToVisualTree
+  nameWithType: DelayedUniformTabPanel.OnAttachedToVisualTree
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.OnDetachedFromVisualTree(Avalonia.VisualTreeAttachmentEventArgs)
+  name: OnDetachedFromVisualTree(VisualTreeAttachmentEventArgs)
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_OnDetachedFromVisualTree_Avalonia_VisualTreeAttachmentEventArgs_
+  commentId: M:Dock.Avalonia.Controls.DelayedUniformTabPanel.OnDetachedFromVisualTree(Avalonia.VisualTreeAttachmentEventArgs)
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.OnDetachedFromVisualTree(Avalonia.VisualTreeAttachmentEventArgs)
+  nameWithType: DelayedUniformTabPanel.OnDetachedFromVisualTree(VisualTreeAttachmentEventArgs)
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.OnDetachedFromVisualTree*
+  name: OnDetachedFromVisualTree
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_OnDetachedFromVisualTree_
+  commentId: Overload:Dock.Avalonia.Controls.DelayedUniformTabPanel.OnDetachedFromVisualTree
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.OnDetachedFromVisualTree
+  nameWithType: DelayedUniformTabPanel.OnDetachedFromVisualTree
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.OnPropertyChanged(Avalonia.AvaloniaPropertyChangedEventArgs)
+  name: OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_OnPropertyChanged_Avalonia_AvaloniaPropertyChangedEventArgs_
+  commentId: M:Dock.Avalonia.Controls.DelayedUniformTabPanel.OnPropertyChanged(Avalonia.AvaloniaPropertyChangedEventArgs)
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.OnPropertyChanged(Avalonia.AvaloniaPropertyChangedEventArgs)
+  nameWithType: DelayedUniformTabPanel.OnPropertyChanged(AvaloniaPropertyChangedEventArgs)
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.OnPropertyChanged*
+  name: OnPropertyChanged
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_OnPropertyChanged_
+  commentId: Overload:Dock.Avalonia.Controls.DelayedUniformTabPanel.OnPropertyChanged
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.OnPropertyChanged
+  nameWithType: DelayedUniformTabPanel.OnPropertyChanged
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.ResizeAnimationDuration
+  name: ResizeAnimationDuration
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_ResizeAnimationDuration
+  commentId: P:Dock.Avalonia.Controls.DelayedUniformTabPanel.ResizeAnimationDuration
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.ResizeAnimationDuration
+  nameWithType: DelayedUniformTabPanel.ResizeAnimationDuration
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.ResizeAnimationDuration*
+  name: ResizeAnimationDuration
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_ResizeAnimationDuration_
+  commentId: Overload:Dock.Avalonia.Controls.DelayedUniformTabPanel.ResizeAnimationDuration
+  isSpec: "True"
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.ResizeAnimationDuration
+  nameWithType: DelayedUniformTabPanel.ResizeAnimationDuration
+- uid: Dock.Avalonia.Controls.DelayedUniformTabPanel.ResizeAnimationDurationProperty
+  name: ResizeAnimationDurationProperty
+  href: api/Dock.Avalonia.Controls.DelayedUniformTabPanel.html#Dock_Avalonia_Controls_DelayedUniformTabPanel_ResizeAnimationDurationProperty
+  commentId: F:Dock.Avalonia.Controls.DelayedUniformTabPanel.ResizeAnimationDurationProperty
+  fullName: Dock.Avalonia.Controls.DelayedUniformTabPanel.ResizeAnimationDurationProperty
+  nameWithType: DelayedUniformTabPanel.ResizeAnimationDurationProperty
 - uid: Dock.Avalonia.Controls.DockAdornerWindow
   name: DockAdornerWindow
   href: api/Dock.Avalonia.Controls.DockAdornerWindow.html
@@ -9244,6 +9454,41 @@ references:
   commentId: F:Dock.Avalonia.Converters.OwnerIsToolDockConverter.Instance
   fullName: Dock.Avalonia.Converters.OwnerIsToolDockConverter.Instance
   nameWithType: OwnerIsToolDockConverter.Instance
+- uid: Dock.Avalonia.Converters.ReferenceEqualsMultiConverter
+  name: ReferenceEqualsMultiConverter
+  href: api/Dock.Avalonia.Converters.ReferenceEqualsMultiConverter.html
+  commentId: T:Dock.Avalonia.Converters.ReferenceEqualsMultiConverter
+  fullName: Dock.Avalonia.Converters.ReferenceEqualsMultiConverter
+  nameWithType: ReferenceEqualsMultiConverter
+- uid: Dock.Avalonia.Converters.ReferenceEqualsMultiConverter.Convert(System.Collections.Generic.IList{System.Object},System.Type,System.Object,System.Globalization.CultureInfo)
+  name: Convert(IList<object?>, Type, object?, CultureInfo)
+  href: api/Dock.Avalonia.Converters.ReferenceEqualsMultiConverter.html#Dock_Avalonia_Converters_ReferenceEqualsMultiConverter_Convert_System_Collections_Generic_IList_System_Object__System_Type_System_Object_System_Globalization_CultureInfo_
+  commentId: M:Dock.Avalonia.Converters.ReferenceEqualsMultiConverter.Convert(System.Collections.Generic.IList{System.Object},System.Type,System.Object,System.Globalization.CultureInfo)
+  name.vb: Convert(IList(Of Object), Type, Object, CultureInfo)
+  fullName: Dock.Avalonia.Converters.ReferenceEqualsMultiConverter.Convert(System.Collections.Generic.IList<object?>, System.Type, object?, System.Globalization.CultureInfo)
+  fullName.vb: Dock.Avalonia.Converters.ReferenceEqualsMultiConverter.Convert(System.Collections.Generic.IList(Of Object), System.Type, Object, System.Globalization.CultureInfo)
+  nameWithType: ReferenceEqualsMultiConverter.Convert(IList<object?>, Type, object?, CultureInfo)
+  nameWithType.vb: ReferenceEqualsMultiConverter.Convert(IList(Of Object), Type, Object, CultureInfo)
+- uid: Dock.Avalonia.Converters.ReferenceEqualsMultiConverter.Convert*
+  name: Convert
+  href: api/Dock.Avalonia.Converters.ReferenceEqualsMultiConverter.html#Dock_Avalonia_Converters_ReferenceEqualsMultiConverter_Convert_
+  commentId: Overload:Dock.Avalonia.Converters.ReferenceEqualsMultiConverter.Convert
+  isSpec: "True"
+  fullName: Dock.Avalonia.Converters.ReferenceEqualsMultiConverter.Convert
+  nameWithType: ReferenceEqualsMultiConverter.Convert
+- uid: Dock.Avalonia.Converters.ReferenceEqualsMultiConverter.Instance
+  name: Instance
+  href: api/Dock.Avalonia.Converters.ReferenceEqualsMultiConverter.html#Dock_Avalonia_Converters_ReferenceEqualsMultiConverter_Instance
+  commentId: P:Dock.Avalonia.Converters.ReferenceEqualsMultiConverter.Instance
+  fullName: Dock.Avalonia.Converters.ReferenceEqualsMultiConverter.Instance
+  nameWithType: ReferenceEqualsMultiConverter.Instance
+- uid: Dock.Avalonia.Converters.ReferenceEqualsMultiConverter.Instance*
+  name: Instance
+  href: api/Dock.Avalonia.Converters.ReferenceEqualsMultiConverter.html#Dock_Avalonia_Converters_ReferenceEqualsMultiConverter_Instance_
+  commentId: Overload:Dock.Avalonia.Converters.ReferenceEqualsMultiConverter.Instance
+  isSpec: "True"
+  fullName: Dock.Avalonia.Converters.ReferenceEqualsMultiConverter.Instance
+  nameWithType: ReferenceEqualsMultiConverter.Instance
 - uid: Dock.Avalonia.Converters.ScrollViewerScrollButtonVisibilityConverter
   name: ScrollViewerScrollButtonVisibilityConverter
   href: api/Dock.Avalonia.Converters.ScrollViewerScrollButtonVisibilityConverter.html
@@ -10836,6 +11081,25 @@ references:
   fullName.vb: Dock.Avalonia.Themes.Browser.BrowserTabTheme.New
   nameWithType: BrowserTabTheme.BrowserTabTheme
   nameWithType.vb: BrowserTabTheme.New
+- uid: Dock.Avalonia.Themes.Browser.BrowserTabTheme.CacheDocumentTabContent
+  name: CacheDocumentTabContent
+  href: api/Dock.Avalonia.Themes.Browser.BrowserTabTheme.html#Dock_Avalonia_Themes_Browser_BrowserTabTheme_CacheDocumentTabContent
+  commentId: P:Dock.Avalonia.Themes.Browser.BrowserTabTheme.CacheDocumentTabContent
+  fullName: Dock.Avalonia.Themes.Browser.BrowserTabTheme.CacheDocumentTabContent
+  nameWithType: BrowserTabTheme.CacheDocumentTabContent
+- uid: Dock.Avalonia.Themes.Browser.BrowserTabTheme.CacheDocumentTabContent*
+  name: CacheDocumentTabContent
+  href: api/Dock.Avalonia.Themes.Browser.BrowserTabTheme.html#Dock_Avalonia_Themes_Browser_BrowserTabTheme_CacheDocumentTabContent_
+  commentId: Overload:Dock.Avalonia.Themes.Browser.BrowserTabTheme.CacheDocumentTabContent
+  isSpec: "True"
+  fullName: Dock.Avalonia.Themes.Browser.BrowserTabTheme.CacheDocumentTabContent
+  nameWithType: BrowserTabTheme.CacheDocumentTabContent
+- uid: Dock.Avalonia.Themes.Browser.BrowserTabTheme.CacheDocumentTabContentProperty
+  name: CacheDocumentTabContentProperty
+  href: api/Dock.Avalonia.Themes.Browser.BrowserTabTheme.html#Dock_Avalonia_Themes_Browser_BrowserTabTheme_CacheDocumentTabContentProperty
+  commentId: F:Dock.Avalonia.Themes.Browser.BrowserTabTheme.CacheDocumentTabContentProperty
+  fullName: Dock.Avalonia.Themes.Browser.BrowserTabTheme.CacheDocumentTabContentProperty
+  nameWithType: BrowserTabTheme.CacheDocumentTabContentProperty
 - uid: Dock.Avalonia.Themes.Browser.BrowserTabTheme.DensityStyle
   name: DensityStyle
   href: api/Dock.Avalonia.Themes.Browser.BrowserTabTheme.html#Dock_Avalonia_Themes_Browser_BrowserTabTheme_DensityStyle
@@ -11016,6 +11280,25 @@ references:
   fullName.vb: Dock.Avalonia.Themes.Fluent.DockFluentTheme.New
   nameWithType: DockFluentTheme.DockFluentTheme
   nameWithType.vb: DockFluentTheme.New
+- uid: Dock.Avalonia.Themes.Fluent.DockFluentTheme.CacheDocumentTabContent
+  name: CacheDocumentTabContent
+  href: api/Dock.Avalonia.Themes.Fluent.DockFluentTheme.html#Dock_Avalonia_Themes_Fluent_DockFluentTheme_CacheDocumentTabContent
+  commentId: P:Dock.Avalonia.Themes.Fluent.DockFluentTheme.CacheDocumentTabContent
+  fullName: Dock.Avalonia.Themes.Fluent.DockFluentTheme.CacheDocumentTabContent
+  nameWithType: DockFluentTheme.CacheDocumentTabContent
+- uid: Dock.Avalonia.Themes.Fluent.DockFluentTheme.CacheDocumentTabContent*
+  name: CacheDocumentTabContent
+  href: api/Dock.Avalonia.Themes.Fluent.DockFluentTheme.html#Dock_Avalonia_Themes_Fluent_DockFluentTheme_CacheDocumentTabContent_
+  commentId: Overload:Dock.Avalonia.Themes.Fluent.DockFluentTheme.CacheDocumentTabContent
+  isSpec: "True"
+  fullName: Dock.Avalonia.Themes.Fluent.DockFluentTheme.CacheDocumentTabContent
+  nameWithType: DockFluentTheme.CacheDocumentTabContent
+- uid: Dock.Avalonia.Themes.Fluent.DockFluentTheme.CacheDocumentTabContentProperty
+  name: CacheDocumentTabContentProperty
+  href: api/Dock.Avalonia.Themes.Fluent.DockFluentTheme.html#Dock_Avalonia_Themes_Fluent_DockFluentTheme_CacheDocumentTabContentProperty
+  commentId: F:Dock.Avalonia.Themes.Fluent.DockFluentTheme.CacheDocumentTabContentProperty
+  fullName: Dock.Avalonia.Themes.Fluent.DockFluentTheme.CacheDocumentTabContentProperty
+  nameWithType: DockFluentTheme.CacheDocumentTabContentProperty
 - uid: Dock.Avalonia.Themes.Fluent.DockFluentTheme.DensityStyle
   name: DensityStyle
   href: api/Dock.Avalonia.Themes.Fluent.DockFluentTheme.html#Dock_Avalonia_Themes_Fluent_DockFluentTheme_DensityStyle
@@ -11184,6 +11467,25 @@ references:
   fullName.vb: Dock.Avalonia.Themes.Simple.DockSimpleTheme.New
   nameWithType: DockSimpleTheme.DockSimpleTheme
   nameWithType.vb: DockSimpleTheme.New
+- uid: Dock.Avalonia.Themes.Simple.DockSimpleTheme.CacheDocumentTabContent
+  name: CacheDocumentTabContent
+  href: api/Dock.Avalonia.Themes.Simple.DockSimpleTheme.html#Dock_Avalonia_Themes_Simple_DockSimpleTheme_CacheDocumentTabContent
+  commentId: P:Dock.Avalonia.Themes.Simple.DockSimpleTheme.CacheDocumentTabContent
+  fullName: Dock.Avalonia.Themes.Simple.DockSimpleTheme.CacheDocumentTabContent
+  nameWithType: DockSimpleTheme.CacheDocumentTabContent
+- uid: Dock.Avalonia.Themes.Simple.DockSimpleTheme.CacheDocumentTabContent*
+  name: CacheDocumentTabContent
+  href: api/Dock.Avalonia.Themes.Simple.DockSimpleTheme.html#Dock_Avalonia_Themes_Simple_DockSimpleTheme_CacheDocumentTabContent_
+  commentId: Overload:Dock.Avalonia.Themes.Simple.DockSimpleTheme.CacheDocumentTabContent
+  isSpec: "True"
+  fullName: Dock.Avalonia.Themes.Simple.DockSimpleTheme.CacheDocumentTabContent
+  nameWithType: DockSimpleTheme.CacheDocumentTabContent
+- uid: Dock.Avalonia.Themes.Simple.DockSimpleTheme.CacheDocumentTabContentProperty
+  name: CacheDocumentTabContentProperty
+  href: api/Dock.Avalonia.Themes.Simple.DockSimpleTheme.html#Dock_Avalonia_Themes_Simple_DockSimpleTheme_CacheDocumentTabContentProperty
+  commentId: F:Dock.Avalonia.Themes.Simple.DockSimpleTheme.CacheDocumentTabContentProperty
+  fullName: Dock.Avalonia.Themes.Simple.DockSimpleTheme.CacheDocumentTabContentProperty
+  nameWithType: DockSimpleTheme.CacheDocumentTabContentProperty
 - uid: Dock.Avalonia.Themes.Simple.DockSimpleTheme.DensityStyle
   name: DensityStyle
   href: api/Dock.Avalonia.Themes.Simple.DockSimpleTheme.html#Dock_Avalonia_Themes_Simple_DockSimpleTheme_DensityStyle
